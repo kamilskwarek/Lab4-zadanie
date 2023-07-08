@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>zadanie lab 1</name>
+    </assembly>
+    <members>
+        <member name="M:zadanie_lab_1.Controllers.StudentsController.PostStudent(zadanie_lab_1.Entities.Student)">
+             <summary>
+             Wprowadź studenta
+             </summary>
+             <param name="student"></param>
+             <returns>A newly created Student</returns>
+             <remarks>
+             Sample request:
+            
+             POST /Student
+             {
+             "id": 1,
+             "name": "Anna",
+             "surnname": "Zablotni"
+             }
+            
+             </remarks>
+        </member>
+        <member name="M:zadanie_lab_1.Controllers.StudentsController.DeleteStudent(System.Int32)">
+            <summary>
+            Usuwanie Studentow z listy.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
