@@ -15,7 +15,7 @@ namespace zadanie_lab_1.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        private readonly StudentContext _context;
+        private readonly StudentDbContext _context;
         private static StudentDTO StudentDTO(Student student) =>
          new StudentDTO
          {
@@ -25,7 +25,7 @@ namespace zadanie_lab_1.Controllers
          };
 
 
-        public StudentsController(StudentContext context)
+        public StudentsController(StudentDbContext context)
         {
             _context = context;
         }
